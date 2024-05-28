@@ -328,7 +328,7 @@ export default function ConfigurationScreen({ navigation }: ScreenType) {
             marginLeft: 10,
           }}
         >
-          <AText fontSize={14}>{translate('go_to_credentials')}</AText>
+          <AText fontSize={14}>{translate('logout')}</AText>
           <FontAwesome name="angle-right" size={22} color="gray" />
         </APressable>
       </AView>
